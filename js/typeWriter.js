@@ -1,7 +1,8 @@
 
 let i = 0;
 let text1 = "Hey Abby.";
-let text2 = "Happy Valentine's Day."
+let text2 = "Happy Valentine's Day.";
+let text3 = "I love you.";
 let speed = 100;
 
 function typeWriter(text, para){
@@ -31,6 +32,7 @@ var typeInterval;
 		}
 		else if(ok == 1){
 			typeWriter(text2, "txt2");
+			typeWriter(text3, "txt3");
 		}
 	}, 100);
 //};
